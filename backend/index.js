@@ -9,6 +9,7 @@ const morgan = require('morgan');
 require('dotenv').config();
 const userRoute = require('./routes/users')
 const authRoute = require('./routes/auth')
+const postRoute = require('./routes/posts')
 
 
 //The express.json() function is a built-in middleware function in Express. It parses incoming requests with JSON payloads and is based on body-parser. 
@@ -39,6 +40,8 @@ connectDB();
 
 app.use("/api/users",userRoute)
 app.use("/api/auth",authRoute)
+app.use("/api/posts",postRoute)
+
 
 
 
