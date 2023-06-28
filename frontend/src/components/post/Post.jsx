@@ -1,7 +1,6 @@
 import React from 'react'
 import "./post.css"
-import { MoreVert } from '@material-ui/icons' 
-
+import { MoreVert , FavoriteBorderOutlined  ,  ThumbUpAltRounded} from '@material-ui/icons' 
 export default function Post() {
   return (
     <div className="post">
@@ -20,15 +19,22 @@ export default function Post() {
             </div>
             <div className="postCenter">
                 <span className="postText">Hey! Its my first Post :)</span>
-                <img className='postImg' src="assets/post/post1.jpg" alt="" />
+                <img className='postImg' src="assets/post/post4.jpg"  alt="" />
             </div>
             <div className="postButtom">
                 <div className="postBottomLeft">
-                    <img className="likeIcon"src="/assets/like.jpg" alt="" />
-                    <img className='likeIcon' src="/assets/heart1.png" alt="" />
+                 {/* < FavoriteBorderRounded /> */}
+                 < FavoriteBorderOutlined className='likeIcon' htmlColor='red' />
+                 <ThumbUpAltRounded className='likeIcon' htmlColor='blue'/>
+                 <span className='postLikeCounter'> 32 people like it</span>
+                    {/* <img className="likeIcon" width="35px" height="25px" src="/assets/like4.png" alt="" /> */}
+                    {/* <img className='likeIcon' width="35px" height="30px" src="/assets/heart1.png" alt="" /> */}
                 </div>
+            
+            <div className="postBottomRight">
+                <span className="postCommentText">9 comments</span>
             </div>
-            <div className="postBottomRight"></div>
+            </div>
 
         </div>
     </div>
