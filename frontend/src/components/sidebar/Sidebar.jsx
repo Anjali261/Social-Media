@@ -1,6 +1,9 @@
 import React from 'react'
 import "./sidebar.css";
 import { Bookmark, Chat, HelpOutline, PlayCircleFilledOutlined, RssFeed, WorkOutline ,Group ,Event ,School } from '@material-ui/icons';
+import { Users } from '../../dummyData';
+import CloseFriend from '../closeFriend/CloseFriend';
+
 
 export default function Sidebar() {
   return (
@@ -64,112 +67,9 @@ export default function Sidebar() {
             <button className='sidebarButton'>Show More</button>
             <hr className='sidebarHr'/>
             <ul className='sidebarFriendList'>
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
-                <li className='sidebarFriend'>
-                    <img classNamesrc="sidebarFriendImg" src="/assets/person/girl.jpg"  style={{"width":"32px", "height":"32px","border-radius":"50%", "objectFit":"cover","marginRight":"10px"}} alt="" />
-                    <span className='sidebarFriendName'>Anjali Singh</span>
-                </li>
-
+              {Users.map(u=>(
+                <CloseFriend key={u?.id} user={u} />
+              ))}
             </ul>
 
         </div>

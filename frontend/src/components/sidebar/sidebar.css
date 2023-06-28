@@ -3,6 +3,8 @@
     height:calc(100vh - 50px);
     /* Adding scrooller for sidebar */
     overflow-y: scroll;
+    position: sticky;
+    top:50px;
 }
 
 ::-webkit-scrollbar{
