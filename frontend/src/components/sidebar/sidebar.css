@@ -1,5 +1,5 @@
 .sidebar{
-    flex:3;
+    flex:2.5;
     height:calc(100vh - 50px);
     /* Adding scrooller for sidebar */
     overflow-y: scroll;
@@ -55,11 +55,7 @@ background-color: rgb(179,179,179);
     margin: 0;
     list-style: none;
 }
-.sidebarFriend{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
+
 
 /* .sidebarFriendImg{
     width: 32px;
